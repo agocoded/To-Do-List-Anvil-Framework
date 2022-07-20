@@ -11,3 +11,18 @@ class AllTasks(AllTasksTemplate):
 
     # Any code you write here will run before the form opens.
     self.repeating_panel_1.items = app_tables.todos.search()
+
+  def button_1_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    app_tables.todos.add_row(task = self.new_reminder_box.text, done=False)
+    
+    self.repeating_panel_1.items = app_tables.todos.search()
+    
+    self.new_reminder_box.text = ''
+    pass
+
+  def new_reminder_box_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
+
+
