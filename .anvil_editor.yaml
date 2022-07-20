@@ -1,6 +1,7 @@
 unique_ids:
   forms:
-    Form1: FJNIRTEYZDZP2RM45ZQ4N7WXDE67I6OB
+    AllTasks: 3QQGJMYTQ4NSNFJXYHW2F5CI7V7L5AYD
+    AllTasks.ItemTemplate1: 7QEPEYHT35JI2M7G5PI23IMUCFVDOOCY
   modules: {}
   server_modules: {}
   assets:

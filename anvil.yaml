@@ -1,8 +1,30 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: false}
+package_name: Todo_List_App
 allow_embedding: false
-package_name: Classic_1
-db_schema: {}
-name: Classic 1
-startup_form: Form1
+name: Todo List App
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-services: []
+metadata: {}
+startup_form: AllTasks
+db_schema:
+  todos:
+    title: Todos
+    client: none
+    server: full
+    columns:
+    - name: task
+      admin_ui: {width: 200}
+      type: string
+    - name: description
+      admin_ui: {width: 200}
+      type: string
+    - name: done
+      admin_ui: {width: 200}
+      type: bool
+    - name: completed on
+      admin_ui: {width: 200}
+      type: datetime
+renamed: true
