@@ -1,7 +1,7 @@
 unique_ids:
   forms:
     AllTasks: 3QQGJMYTQ4NSNFJXYHW2F5CI7V7L5AYD
-    AllTasks.ItemTemplate1: 7QEPEYHT35JI2M7G5PI23IMUCFVDOOCY
+    AllTasks.AllTasksTemplate: 7QEPEYHT35JI2M7G5PI23IMUCFVDOOCY
   modules: {}
   server_modules: {}
   assets:

@@ -25,7 +25,7 @@ components:
   name: link_2
   layout_properties: {slot: sidebar}
 - type: RepeatingPanel
-  properties: {item_template: AllTasks.ItemTemplate1}
+  properties: {item_template: AllTasks.AllTasksTemplate}
   name: repeating_panel_1
   layout_properties: {slot: default}
 - type: ColumnPanel
