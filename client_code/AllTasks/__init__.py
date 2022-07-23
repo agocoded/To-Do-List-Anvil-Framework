@@ -25,4 +25,14 @@ class AllTasks(AllTasksTemplate):
     """This method is called when the user presses Enter in this text box"""
     pass
 
+  def link_2_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form('AllCompletedTask')
+
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    open_form('AllTasks')
+
+
+
 
