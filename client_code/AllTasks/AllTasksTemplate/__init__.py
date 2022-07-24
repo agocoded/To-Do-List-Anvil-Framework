@@ -22,7 +22,11 @@ class AllTasksTemplate(AllTasksTemplateTemplate):
     """This method is called when this checkbox is checked or unchecked"""
     if (self.item['done']) == True:
       self.item['completed on'] = datetime.now()
-
+      
+      n = Notification('Description: ' + str(self.item['description']),
+                      title= 'Completed Task: ' + str(self.item['task']),
+                      style='success')
+      n.show()
 
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""

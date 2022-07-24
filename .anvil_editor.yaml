@@ -1,10 +1,10 @@
 unique_ids:
   forms:
+    AllCompletedTask: MQ2QOTNUMDDU36JYC36CG3C35I6XBK3G
+    AllCompletedTask.AllCompletedTaskTemplate: VBX4VBZVMB7SX5R7Y24SCD64NYRE6ZF4
     AllTasks: 3QQGJMYTQ4NSNFJXYHW2F5CI7V7L5AYD
     AllTasks.AllTasksTemplate: 7QEPEYHT35JI2M7G5PI23IMUCFVDOOCY
     TaskEdit: RQGS2GRLI3ZOVX5IIGT4LNTFFGJITS7U
-    AllCompletedTask: MQ2QOTNUMDDU36JYC36CG3C35I6XBK3G
-    AllCompletedTask.AllCompletedTaskTemplate: VBX4VBZVMB7SX5R7Y24SCD64NYRE6ZF4
   modules: {}
   server_modules: {}
   assets:
