@@ -2,7 +2,7 @@ container:
   type: ColumnPanel
   properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
     wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"JHEBAL":5,"YRSDLV":35,"WTIIHA":10,"DNIEBQ":10}',
-    spacing_below: small, background: '#ffe0e0'}
+    spacing_below: small, background: 'theme:Accent 1'}
 components:
 - type: CheckBox
   properties: {role: null, align: left, tooltip: '', border: '', enabled: true, foreground: '',
